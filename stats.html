@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+ <title>Home Stats</title>
+ <style type="text/css">
+  @page { margin: 0.79in }
+  p { margin-bottom: 0.1in; line-height: 120% }
+  img { display: block; margin: 0 auto;}
+ </style>
+</head>
+<body lang="en-US" dir="ltr">
+ <p align="center" style="margin-bottom: 0.25in; line-height: 100%">Home Stats</p>
+ <img src="images/building-statistics.jpg" alt="building-statistics"/>
+ <hr/>
+ <img id="graph" src="graphs/statistic.png" alt="home-statistics"/>
+ <script language="javascript" type="text/javascript">
+      var d = new Date(); 
+      document.getElementById("graph").src="graphs/statistic.png?ver="+d.getTime();
+ </script>
+</body>
+</html>
